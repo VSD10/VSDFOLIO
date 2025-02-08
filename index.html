@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VSDFOLIO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fredoka:wght@300..700&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-3/assets/css/timeline-3.css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+ 
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6N1BI8LY6kCtnWF6flB8KA8KgZF1ACpb8z85b6HP33Bv0aBW80RL6bG1nkit" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body style="background-color:black;">
+  <nav class="navbar navbar-expand-lg navbar-dark p-4 glassmorphism">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">VSDFOLIO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experiences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <style>
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.5s ease;
+    }
+  
+    .navbar-brand,
+    .nav-link {
+      color: rgba(255, 255, 255, 0.8) !important;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+  
+    .nav-link:hover {
+      color: rgba(255, 255, 255, 1) !important;
+    }
+  
+    .navbar-toggler {
+      border: none;
+    }
+  
+    .navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  </style>
+  
+
+  <div class="card mb-3 p-2 glassmorphism-card">
+    <div class="row g-0">
+      <!-- Image Section -->
+      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+        <img src="Untitled design (4).png" class="img-fluid rounded card-image" alt="vsd">
+      </div>
+  
+      <!-- Text Section -->
+      <div class="col-md-6 col-12 glassmorphism-text">
+        <div class="card-body">
+          <h1 class="card1">This is</h1>
+          <h1 class="card-title">DHARSHAN</h1>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, dolore facilis? Fugit corrupti nam,
+            perspiciatis asperiores unde minus repellat pariatur modi dolorem assumenda quae, inventore dicta incidunt
+            temporibus facere quis? This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.
+          </p>
+          <a class="btn btn-outline-light" target="_blank" href="https://drive.google.com/file/d/15714ikvXoExKGmdGgFK6P9CGtyu3xa48/view?usp=sharing">My Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Glassmorphism Card */
+    .glassmorphism-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      transition: all 0.5s ease;
+    }
+  
+    /* Image Hover Effect */
+    .card-image {
+      transition: transform 0.5s ease;
+    }
+  
+    .card-image:hover {
+      transform: scale(1.05);
+    }
+  
+    /* Text Section with Glassmorphism */
+    .glassmorphism-text {
+      background: linear-gradient(-80deg, #000000, #3e3e3e);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      color: white;
+      padding: 20px;
+    }
+  
+    /* Button Styling */
+    .btn-outline-light {
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+  
+    .btn-outline-light:hover {
+      background: white;
+      color: black;
+    }
+  </style>
+  
+  <div class="p-4" id="about">
+    <div class="card container-fluid about-card glassmorphism-about">
+      <div class="card-body">
+        <h2 class="card-title1">ABOUT</h2>
+        <p id="abc" class="p-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aut nostrum ipsa exercitationem incidunt
+          unde quo modi sit quasi! Beatae exercitationem, distinctio porro facere maiores blanditiis deserunt non illo
+          debitis.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur eveniet quos molestiae fuga atque illum
+          reiciendis quod temporibus. Qui iusto ab doloremque temporibus ducimus et beatae fugit perspiciatis tempora eum.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Glassmorphism About Section */
+    .glassmorphism-about {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      transition: all 0.5s ease;
+      padding: 20px;
+      color: white;
+    }
+  
+    /* Heading Styling */
+    .card-title1 {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    /* Paragraph Styling */
+    #abc {
+      color: rgb(245, 245, 245);
+      font-size: 1.1rem;
+      text-align: justify;
+    }
+  </style>
+  
+  <div class="p-4" id="education">
+    <div class="card container-fluid glassmorphism-education">
+      <!-- Education Title -->
+      <div class="mt-auto">
+        <h2 class="card-title1 text-end">EDUCATION</h2>
+        <div class="list-group p-4">
+          <!-- College Details -->
+          <a href="https://kiot.ac.in/" class="list-group-item glassmorphism-list">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">BTECH - Computer Science and Business Systems</h5>
+              <small>2022 - Present</small>
+            </div>
+            <p class="mb-1">Knowledge Institute of Technology</p>
+            <small>CGPA - 7.9 (up to 4th Sem)</small>
+          </a>
+          <br>
+          <!-- School Details -->
+          <a href="https://g.co/kgs/qyBrxGW" class="list-group-item glassmorphism-list">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Higher Secondary</h5>
+              <small>2020 - 2022</small>
+            </div>
+            <p class="mb-1">Shri Swamy Matric Hr. Sec. School</p>
+            <small>12th - 83% <br>10th - 96%</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Glassmorphism Education Section */
+    .glassmorphism-education {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      transition: all 0.5s ease;
+      padding: 20px;
+      color: white;
+    }
+  
+    /* Glassmorphism List Items */
+    .glassmorphism-list {
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      transition: all 0.3s ease;
+      padding: 15px;
+      text-decoration: none;
+    }
+  
+    /* Hover Effect */
+    .glassmorphism-list:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      transform: scale(1.02);
+    }
+  
+    /* Education Heading */
+    .card-title1 {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: right;
+    }
+  </style>
+  
+
+
+  </div>
+  <div class="p-4" id="skills">
+    <div class="card container-fluid glassmorphism-skills">
+      <div class="mt-auto">
+        <h2 class="card-title1">Technical Skills</h2>
+        <br>
+  
+        <!-- Programming Languages Section -->
+        <section id="programming-languages" class="skills-section">
+          <h3>Programming Languages</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-python.svg" alt="Python" class="skill-icon">
+              </div>
+              <span>Python</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-java.svg" alt="Java" class="skill-icon">
+              </div>
+              <span>Java</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-c.svg" alt="C" class="skill-icon">
+              </div>
+              <span>C</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-js.svg" alt="JavaScript" class="skill-icon">
+              </div>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </section>
+  
+        <!-- Web Development Section -->
+        <section id="web-development" class="skills-section mt-4">
+          <h3>Web Development</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-html.svg" alt="HTML" class="skill-icon">
+              </div>
+              <span>HTML</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-css.svg" alt="CSS" class="skill-icon">
+              </div>
+              <span>CSS</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-js.svg" alt="JavaScript" class="skill-icon">
+              </div>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/React-icon.svg.png" alt="React" class="skill-icon">
+              </div>
+              <span>React</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-mysql.svg" alt="MySQL" class="skill-icon">
+              </div>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </section>
+  
+        <!-- Software Tools Section -->
+        <section id="software-tools" class="skills-section mt-4">
+          <h3>Software Tools</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-git.svg" alt="Git" class="skill-icon">
+              </div>
+              <span>Git</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-github.svg" alt="GitHub" class="skill-icon">
+              </div>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-jupyter.svg" alt="Jupyter Notebook" class="skill-icon">
+              </div>
+              <span>Jupyter Notebook</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-google-colab.svg" alt="Google Colab" class="skill-icon">
+              </div>
+              <span>Colab</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-wordpress.svg" alt="WordPress" class="skill-icon">
+              </div>
+              <span>WordPress</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-opensea.svg" alt="OpenSea" class="skill-icon">
+              </div>
+              <span>OpenSea</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-roblox.svg" alt="Roblox Studio" class="skill-icon">
+              </div>
+              <span>Roblox Studio</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-figma.svg" alt="Figma" class="skill-icon">
+              </div>
+              <span>Figma</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Glassmorphism Skills Section */
+    .glassmorphism-skills {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      transition: all 0.5s ease;
+      padding: 20px;
+      color: white;
+    }
+  
+    /* Skills Grid and Item Styles */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+    }
+  
+    .skill-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+  
+    /* Skill Icons */
+    .skill-icon {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+  
+    /* Hover effect for skills */
+    .skill-item:hover .skill-icon {
+      transform: scale(1.2);
+      filter: brightness(0) saturate(100%) invert(36%) sepia(80%) saturate(4683%) hue-rotate(87deg) brightness(101%) contrast(96%);
+    }
+  
+    .skill-item:hover {
+      color: #0099ff;
+    }
+  
+    /* Title Styles */
+    .card-title1 {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: left;
+    }
+  </style>
+  
+
+  <div class="p-4" id="projects">
+    <div class="card container-fluid about-card glassmorphism-projects">
+      <h2 class="card-title1">Projects</h2>
+  
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        <div class="col">
+          <div class="card h-100 glassmorphism-card">
+            <div class="card-body">
+              <h1 class="card12">Attendance Reporter</h1>
+              <p class="card-text">• Developed a web tool for efficiently recording and managing student attendance.
+                <br>• Implemented features to mark leaves or on-duty status, generate detailed attendance reports,
+                and facilitate easy sharing via WhatsApp.
+              </p>
+              <a class="btn btn-primary justify-content-center" id="view" href="https://vsd10.github.io/csbsattedance1.github.io/" role="button" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Glassmorphism Projects Section */
+    .glassmorphism-projects {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      color: white;
+      transition: all 0.5s ease;
+    }
+  
+    /* Project Card */
+    .glassmorphism-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      transition: all 0.5s ease;
+    }
+  
+    .glassmorphism-card:hover {
+      box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+    }
+  
+    /* Heading Styling */
+    .card-title1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: left;
+      color: white;
+      letter-spacing: 2px;
+      transition: color 0.3s ease;
+    }
+  
+    .card-title1:hover {
+      color: #00366b;
+    }
+  
+    /* Project Button */
+    .btn-primary {
+      background-color: #00366b;
+      border-radius: 20px;
+      border: none;
+      transition: all 0.3s ease;
+    }
+  
+    .btn-primary:hover {
+      background-color: #001e3c;
+      box-shadow: 0 4px 10px rgba(0, 54, 107, 0.5);
+    }
+  </style>
+  
+  
+  <div class="p-4" id="experience">
+    <div class="card container-fluid about-card glassmorphism-experience">
+      <div class="card-body d-flex flex-column justify-content-center text-start py-5">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,500,600,700" rel="stylesheet">
+  
+        <section class="experience pt-50 pb-100" id="experience">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-8 mx-auto text-center container-fluid">
+                <div class="section-title">
+                  <h4 class="card-title1">EXPERIENCE</h4>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-12">
+                <ul class="timeline-list">
+                  <!-- Single Experience -->
+                  <li>
+                    <div class="timeline_content">
+                      <span>Nov 2023 - Jan 2024</span>
+                      <h4>Blockchain Developer</h4>
+                      <span>Corzio Private Limited</span>
+                      <p>Acquired foundational knowledge in blockchain technology and developed skills in blockchain
+                        basics, focusing on the structure and function of blockchain networks.</p>
+                      <a class="btn btn-outline-light justify-content-center" id="view" style="margin-left: 10px;"
+                        href="https://vsd10.github.io/csbsattedance1.github.io/" role="button" target="_blank">View</a>
+                    </div>
+                  </li>
+                  <!-- Single Experience -->
+                  <li>
+                    <div class="timeline_content">
+                      <span>July 2024 - Aug 2024</span>
+                      <h4>Junior Developer</h4>
+                      <span>ThinkInfo Expert Solutions</span>
+                      <p>I worked as a graphics, UI/UX, and frontend designer, gaining valuable knowledge through
+                        real-time projects. Each project enhanced my skills and deepened my expertise.</p>
+                      <a class="btn btn-outline-light justify-content-center" id="view" style="margin-left: 10px;"
+                        href="https://vsd10.github.io/csbsattedance1.github.io/" role="button" target="_blank">View</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="spinner-container">
+              <div class="spinner-grow p-4" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Glassmorphism Experience Section */
+    .glassmorphism-experience {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      transition: all 0.5s ease;
+      padding: 20px;
+      color: white;
+    }
+  
+    /* Heading Styling */
+    .card-title1 {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+    }
+  
+    /* Timeline Text Styling */
+    .timeline_content {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8px);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 10px 0;
+      transition: all 0.3s ease;
+    }
+  
+    .timeline_content:hover {
+      box-shadow: 0 10px 15px rgba(255, 255, 255, 0.3);
+    }
+  
+    .timeline_content span {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+    }
+  
+    .timeline_content h4 {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+  
+    .timeline_content p {
+      color: #f5f5f5;
+      font-size: 1rem;
+    }
+  
+    /* Button Styling */
+    .btn-outline-light {
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      transition: all 0.3s ease;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+  
+    .btn-outline-light:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  
+    /* Spinner */
+    .spinner-grow {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+    }
+  </style>
+  
+
+  <div class="p-4" id="contact">
+    <div class="card container-fluid about-card glassmorphism-contact">
+      <div class="card-body d-flex flex-column justify-content-center text-start py-5">
+        <h1 id="last" class="fw-bold text-uppercase w-100" style="letter-spacing: 2px;">Let's Create Something Amazing Together</h1>
+        <p class="mt-3 mb-4 fs-5">
+          I'm basically everywhere. Feel free to pick the mode of communication that works for you.
+        </p>
+        <button class="btn btn-outline-light btn-lg px-5 py-3 shadow-sm fw-bold" id="view" data-bs-toggle="modal" data-bs-target="#contactModal">
+          Contact Me
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Glassmorphism Contact Section */
+    .glassmorphism-contact {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      color: white;
+      transition: all 0.5s ease;
+    }
+  
+    /* Heading Styling */
+    #last {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: left;
+      color: white;
+      letter-spacing: 2px;
+      transition: color 0.3s ease;
+    }
+  
+    #last:hover {
+      color: #00366b;
+    }
+  
+    /* Button Styling */
+    .btn-outline-light {
+      border-radius: 50px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      transition: all 0.3s ease;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+  
+    .btn-outline-light:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-color: #00366b;
+      color: #00366b;
+    }
+  
+    /* Card Styling */
+    .card-body {
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+      transition: all 0.3s ease;
+    }
+  
+    .card-body:hover {
+      box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+    }
+  </style>
+  
+
+ <!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-3" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="https://github.com/VSD10" target="_blank" class="text-dark">
+              <i class="bi bi-github"></i> GitHub
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://linkedin.com/in/vsd10" target="_blank" class="text-dark">
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="mailto:vsdh2004@gmail.com" class="text-dark">
+              <i class="bi bi-envelope"></i> Email
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Icons from Bootstrap Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+
+<!-- Styling -->
+<style>
+  /* Styling for the list items */
+  .list-group-item {
+    padding: 20px 25px; /* Increased padding for a larger box */
+    font-size: 1.2rem;  /* Adjust font size for better balance */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ensures proper alignment of icon and text */
+    border-radius: 15px; /* Keeps rounded corners */
+    margin-bottom: 20px; /* Ensures proper separation between items */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .list-group-item i {
+    margin-right: 15px; /* Increased margin for more spacing between icon and text */
+    font-size: 2rem; /* Increased icon size */
+    transition: transform 0.3s ease;
+  }
+
+  /* Hover effect */
+  .list-group-item:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+    box-shadow: 0 8px 20px rgba(0, 100, 150, 0.3); /* More prominent shadow on hover */
+  }
+
+  /* Modal Title */
+  .modal-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  /* Close Button */
+  .btn-close {
+    background-color: #333;
+  }
+
+  /* Footer Styling */
+  .modal-footer .btn-dark {
+    background-color: #00366b;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .modal-footer .btn-dark:hover {
+    background-color: #001c33;
+  }
+</style>
+
+
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</html>
