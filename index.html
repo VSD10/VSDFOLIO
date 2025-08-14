@@ -27,6 +27,8 @@
 </head>
 
 <body style="background-color:black;">
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
   <nav class="navbar navbar-expand-lg navbar-dark p-4 glassmorphism">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">VSDFOLIO</a>
@@ -89,10 +91,10 @@
       <!-- Text Section -->
       <div class="col-md-6 col-12 glassmorphism-text">
         <div class="card-body">
-          <h1 class="card1">This is</h1>
-          <h1 class="card-title">DHARSHAN</h1>
+          <h1 class="card1 gradient-text">This is</h1>
+          <h1 class="card-title gradient-text" id="typing-text">DHARSHAN VS</h1>
           <p class="card-text">
-            "Welcome to my space! I'm thrilled to have you here. 🚀 Whether you're just exploring or looking for something exciting, I hope you find inspiration, creativity, and value in every corner. Feel free to look around, engage, and be a part of this journey. Let's make something amazing together!"
+            A passionate Tech enthusiast with deep interest in Generative AI and hands-on experience in the MERN stack. Skilled in building scalable web applications and AI-driven tools. Recognized in National and International hackathons for delivering real-world tech solutions through collaborative innovation. 🚀
           </p>
           
           <!-- link for the resume -->
@@ -144,6 +146,9 @@
       color: black;
     }
   </style>
+  
+  <!-- Contact Information Section -->
+ 
   
   <div class="p-4" id="about">
     <div class="col-xl-12 mx-auto text-center container-fluid">
@@ -291,22 +296,23 @@
                 <ul>
                 
                     <div class="timeline_content">
-                      <span>2025 - Present</span>
-                     <div><h4>BSc (Hons) - Computer Science  </h4><small>Mobility Student  </small></div> 
+                      <span>Jan 2025 - May 2025</span>
+                     <div><h4>Student Exchange Program – B.Sc. (Hons) in Computer Science</h4><small>Mobility Student</small></div> 
                      
                       <span class="university-name">
                         INTI International University, Malaysia 
                          <img src="https://flagcdn.com/my.svg" alt="Malaysia Flag" class="flag-icon">
-                    
+                      </span>
+                      <p>Coursework: Social, Web and Mobile Analytics, Data Warehouse, Web Application Development</p>
                     </div>
                   
                   <!-- Single Experience -->
                   
                     <div class="timeline_content">
-                      <span>2022 - Present</span>
-                      <h4>BTECH - Computer Science and Business Systems</h4>
+                      <span>Nov 2022 - Present</span>
+                      <h4>B.Tech in Computer Science and Business Systems</h4>
                       <span class="institution-name">Knowledge Institute of Technology, India <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" class="flag-icon" alt="India Flag"></span>
-                      <p>CGPA - 7.9 (up to 4th Sem)</p>
+                      <p>CGPA: 7.84/10.0 | Coursework: Data Structures, Python, Database Management, Operating Systems, Cloud Computing</p>
                     </div>
                  
                   <!-- Single Experience -->
@@ -643,6 +649,43 @@
             </div>
           </div>
         </section>
+        
+        <!-- Additional Technologies Section -->
+        <section id="additional-tech" class="skills-section mt-4">
+          <h3>Additional Technologies</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-mysql.svg" alt="MySQL" class="skill-icon">
+              </div>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-js.svg" alt="Node.js" class="skill-icon">
+              </div>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-js.svg" alt="Express.js" class="skill-icon">
+              </div>
+              <span>Express.js</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-python.svg" alt="FastAPI" class="skill-icon">
+              </div>
+              <span>FastAPI</span>
+            </div>
+            <div class="skill-item">
+              <div class="image-container">
+                <img src="New folder/icons8-js.svg" alt="Bootstrap" class="skill-icon">
+              </div>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </div>
@@ -723,15 +766,14 @@
         <div class="col">
           <div class="card h-100 glassmorphism-card">
             <div class="card-body">
-              <h1 class="card12">Generative AI Model</h1>
-              <p class="card-text">• Developing a generative AI model using LangChain integrated with the Hugging Face API.
-                <br>• Implementing advanced natural language processing capabilities for seamless AI interactions.
-                <br>• Enhancing efficiency in text generation, question answering, and contextual understanding.
-              </p>
-              <p class="btn btn-primary justify-content-center" id="view" href="" role="button" target="_blank">on processing</p>
+              <h1 class="card12">MEX - Merchant Chatbot</h1>
+              <p class="card-text">• Developed a chatbot using FastAPI, Python, and MongoDB to answer merchant and order queries, reducing manual search by 85%.<br>• Integrated LLM model Gemini AI for smart responses, speeding up query resolution by over 80%.</p>
+              <p class="btn btn-primary justify-content-center" id="view" href="" role="button" target="_blank">Apr 2025 - May 2025</p>
             </div>
           </div>
         </div>
+        
+
         
       </div>
     </div>
@@ -813,13 +855,19 @@
                   <!-- Single Experience -->
                   
                     <div class="timeline_content">
+                      <span>July 2024 - Aug 2024</span>
+                      <h4>Frontend & UI/UX Designer</h4>
+                      <span>ThinkInfo Solutions</span>
+                      <p>• Designed and implemented an intuitive UI/UX for a cross-platform antivirus browser extension using Figma and React.js, resulting in a 35% increase in user engagement.<br>• Developed responsive frontend components using JavaScript and CSS, improving mobile accessibility and load speed by 25%.</p>
+                    </div>
+                  
+                  <!-- Single Experience -->
+                  <li>
+                    <div class="timeline_content">
                       <span>Nov 2023 - Jan 2024</span>
-                      <h4>Blockchain Developer</h4>
-                      <span>Corzio Private Limited</span>
-                      <p>Acquired foundational knowledge in blockchain technology and developed skills in blockchain
-                        basics, focusing on the structure and function of blockchain networks.</p>
-                      <a class="btn btn-outline-light justify-content-center" id="view" style="margin-left: 10px;"
-                        href="https://vsd10.github.io/csbsattedance1.github.io/" role="button" target="_blank">View</a>
+                      <h4>Blockchain Intern</h4>
+                      <span>Corizo Pvt. Ltd.</span>
+                      <p>• Assisted in testing smart contracts for token transactions and refining deployment logic in Ethereum-based prototypes using Solidity.</p>
                     </div>
                   </li>
                   <!-- Single Experience -->
@@ -867,7 +915,43 @@
                   <!-- Single Achievement -->
                   <li>
                     <div class="achievement_content">
-                      <h4>Solved over 500+ problems on <a href="https://www.geeksforgeeks.org/user/vsdh2004/" target="_blank" style="color: green;">GeeksforGeeks</a></h4>
+                      <h4>Solved 500+ algorithmic challenges on <a href="https://www.geeksforgeeks.org/user/vsdh2004/" target="_blank" style="color: #00ff88;">GeeksforGeeks</a> and 200+ problems on <a href="https://leetcode.com/vsdh2004/" target="_blank" style="color: #ffa500;">LeetCode</a></h4>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="achievement_content">
+                      <span>2025</span>
+                      <h4>Participated in the UM Hackathon 2025 held in Malaysia</h4>
+                      <span>University of Malaya, Malaysia</span>
+                      <p>Collaborated on innovative tech solutions with international teams, gaining exposure to global innovation practices.</p>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="achievement_content">
+                      <span>2024</span>
+                      <h4>Qualified for the Smart India Hackathon 2024</h4>
+                      <span>Ministry of Education, India</span>
+                      <p>Built an LLM-powered ChatBot using Gemini API, showcasing advanced AI integration capabilities.</p>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="achievement_content">
+                      <span>2024</span>
+                      <h4>Best Co-Curricular Student Award</h4>
+                      <span>Knowledge Institute of Technology</span>
+                      <p>Recognized for outstanding engagement beyond academics and exceptional contribution to department activities.</p>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="achievement_content">
+                      <span>2024</span>
+                      <h4>Instagram Campaign Success for "Prill Bar"</h4>
+                      <span>Social Media Marketing</span>
+                      <p>Spearheaded an Instagram campaign reaching 10K+ views and 50+ comments organically, demonstrating digital marketing skills.</p>
                     </div>
                   </li>
                   <!-- Single Achievement -->
@@ -993,7 +1077,7 @@
     }
   </style>
 
-  <div class="p-4" id="contact">
+    <div class="p-4" id="contact">
     <div class="card container-fluid about-card glassmorphism-contact">
       <div class="card-body d-flex flex-column justify-content-center text-start py-5">
         <h1 id="last" class="fw-bold text-uppercase w-100" style="letter-spacing: 2px;">Let's Create Something Amazing Together</h1>
@@ -1006,6 +1090,11 @@
       </div>
     </div>
   </div>
+  
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTop" class="scroll-to-top-btn" title="Scroll to Top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
   
   <style>
     /* Glassmorphism Contact Section */
@@ -1162,5 +1251,176 @@
   integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
   integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<!-- Particles.js -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS('particles-js', {
+    particles: {
+      number: {
+        value: 80,
+        density: {
+          enable: true,
+          value_area: 800
+        }
+      },
+      color: {
+        value: '#ffffff'
+      },
+      shape: {
+        type: 'circle',
+        stroke: {
+          width: 0,
+          color: '#000000'
+        }
+      },
+      opacity: {
+        value: 0.5,
+        random: false,
+        anim: {
+          enable: false,
+          speed: 1,
+          opacity_min: 0.1,
+          sync: false
+        }
+      },
+      size: {
+        value: 3,
+        random: true,
+        anim: {
+          enable: false,
+          speed: 40,
+          size_min: 0.1,
+          sync: false
+        }
+      },
+      line_linked: {
+        enable: true,
+        distance: 150,
+        color: '#ffffff',
+        opacity: 0.4,
+        width: 1
+      },
+      move: {
+        enable: true,
+        speed: 6,
+        direction: 'none',
+        random: false,
+        straight: false,
+        out_mode: 'out',
+        bounce: false,
+        attract: {
+          enable: false,
+          rotateX: 600,
+          rotateY: 1200
+        }
+      }
+    },
+    interactivity: {
+      detect_on: 'canvas',
+      events: {
+        onhover: {
+          enable: true,
+          mode: 'repulse'
+        },
+        onclick: {
+          enable: true,
+          mode: 'push'
+        },
+        resize: true
+      },
+      modes: {
+        grab: {
+          distance: 400,
+          line_linked: {
+            opacity: 1
+          }
+        },
+        bubble: {
+          distance: 400,
+          size: 40,
+          duration: 2,
+          opacity: 8,
+          speed: 3
+        },
+        repulse: {
+          distance: 200,
+          duration: 0.4
+        },
+        push: {
+          particles_nb: 4
+        },
+        remove: {
+          particles_nb: 2
+        }
+      }
+    },
+    retina_detect: true
+  });
+  
+  // Scroll to Top functionality
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+  
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 300) {
+      scrollToTopBtn.classList.add('show');
+    } else {
+      scrollToTopBtn.classList.remove('show');
+    }
+  });
+  
+  scrollToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+  
+  // Smooth scrolling for navigation links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  
+  // Typing effect for the main title
+  function typeWriter(element, text, speed = 100) {
+    let i = 0;
+    element.innerHTML = '';
+    
+    function type() {
+      if (i < text.length) {
+        element.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(type, speed);
+      }
+    }
+    
+    type();
+  }
+  
+  // Start typing effect when page loads
+  window.addEventListener('load', () => {
+    const typingElement = document.getElementById('typing-text');
+    if (typingElement) {
+      const originalText = typingElement.textContent;
+      setTimeout(() => {
+        typeWriter(typingElement, originalText, 150);
+      }, 1000);
+    }
+  });
+  
+  // Add loading animation
+  window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+  });
+</script>
 
 </html>
